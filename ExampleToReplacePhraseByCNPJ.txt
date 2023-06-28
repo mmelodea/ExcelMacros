@@ -1,0 +1,5 @@
+Sub getcnpj()
+    Range("teste!A6").value = Range("teste!A1").value
+    Range("teste!A6").Replace What:="*CNPJ/CPF: ", Replacement:=""
+    Range("teste!A6").Replace What:=",*", Replacement:=""
+End Sub
